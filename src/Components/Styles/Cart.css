@@ -1,0 +1,21 @@
+.cartItem {
+  padding: 1vw;
+  margin: 1vw auto;
+  width: 80%;
+  box-shadow: 3px 3px 10px #80808057;
+  border-radius: 10px;
+  display: flex;
+  text-align: left;
+}
+.cartImageContainer {
+  width: 10vw;
+  height: 10vw;
+  overflow: hidden;
+}
+.cartProductData {
+  margin: 0 2vw;
+}
+.cartItemImage {
+  width: 100%;
+  height: auto;
+}

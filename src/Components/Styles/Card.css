@@ -1,0 +1,25 @@
+.productImageContainer {
+  width: 100%;
+  min-height: 18vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.productImage {
+  width: 60%;
+  height: auto;
+}
+.productTitle {
+  margin: 0.7vw 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+.productCategory {
+  margin: 0.5vw 0;
+}
